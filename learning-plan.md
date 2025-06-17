@@ -43,6 +43,7 @@ A rapid, hands-on curriculum for mastering Git, AI-assisted development, and mod
 - **Go Deeper:**  
   - [Atlassian Git Branching Guide](https://www.atlassian.com/git/tutorials/using-branches)  
   - [Git Reset, Revert, and Checkout](https://www.git-tower.com/learn/git/ebook/en/command-line/advanced-topics/undoing-things)
+  - [Oh Shit, Git!?!](https://ohshitgit.com/)
 
 ---
 
