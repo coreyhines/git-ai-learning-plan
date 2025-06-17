@@ -201,3 +201,29 @@ A rapid, hands-on curriculum for mastering Git, AI-assisted development, and mod
 - Keep building with AI and Git
 - Explore advanced MCP integrations
 - Contribute to open source with your new skills
+
+## Module 7: Automating CI and Testing with Your AI Agent
+
+- **Setting Up a CI Pipeline with GitHub Actions**
+  - Task: Automate continuous integration (CI) for your project using GitHub Actions.
+  - Example prompt: "Set up a GitHub Actions workflow to run my Python tests and linting on every push and pull request."
+  - Why: CI ensures your code is automatically tested and checked for quality before merging, reducing bugs and improving reliability.
+  - Example prompt: "Explain what each step in the generated GitHub Actions workflow does."
+
+- **Letting the Agent Do the Heavy Lifting**
+  - Task: Use the agent to generate, configure, and troubleshoot your CI pipeline.
+  - Example prompt: "If my GitHub Actions workflow fails, help me debug and fix the issue."
+
+- **Writing and Maintaining Tests with the Agent**
+  - Task: Ask the agent to generate unit, integration, or end-to-end tests for your codebase.
+  - Example prompt: "Write unit tests for my main.py file using pytest."
+  - Example prompt: "Review my test coverage and suggest areas that need more tests."
+  - Why: Automated tests catch bugs early, document expected behavior, and make refactoring safer. With an AI agent, writing and maintaining tests becomes much easier and less time-consuming.
+
+- **Why Adopt CI and Automated Testing Now?**
+  - With your AI agent handling much of the setup and maintenance, there's little reason not to automate quality checks and testing. This leads to more robust, maintainable, and collaborative projects.
+
+- **Go Deeper:**
+  - [GitHub Actions Documentation](https://docs.github.com/en/actions)
+  - [pytest Documentation](https://docs.pytest.org/en/stable/)
+  - [Guide: Automated Testing Best Practices](https://martinfowler.com/bliki/TestPyramid.html)
