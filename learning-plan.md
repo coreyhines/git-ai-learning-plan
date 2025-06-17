@@ -121,6 +121,45 @@ A rapid, hands-on curriculum for mastering Git, AI-assisted development, and mod
 
 ---
 
+## Module 6: Laying the Foundation for a Modern Python Project
+
+- **Project Structure & Initialization**
+  - Task: Create a clean project directory and initialize it in Cursor IDE.
+  - Example prompt: "Set up a new Python project structure in this directory, including a src/ folder and a README.md."
+
+- **Dependency Management with uv and requirements.txt**
+  - Task: Use [uv](https://github.com/astral-sh/uv) (a fast, modern Python package manager) to manage dependencies.
+  - Example prompt: "Install uv and use it to add requests and pytest to my project. Generate a requirements.txt file."
+  - Why: uv is faster and more reliable than pip, and requirements.txt ensures reproducibility for collaborators and CI.
+
+- **Development Environment: Should You Use a devcontainer?**
+  - Task: Decide whether to use a [devcontainer](https://containers.dev/) for consistent, reproducible development environments.
+  - Example prompt: "Should I use a devcontainer for this project? If so, generate a .devcontainer/devcontainer.json for a Python 3.11 environment with uv and ruff pre-installed."
+  - Why: Devcontainers make onboarding, CI, and cross-platform development easier and more reliable.
+
+- **Code Quality: Setting Up Ruff**
+  - Task: Add [ruff](https://docs.astral.sh/ruff/) for fast linting and code formatting.
+  - Example prompt: "Install ruff and configure it for this project. Add a pyproject.toml with recommended settings."
+  - Why: Ruff enforces code style and catches errors early, improving code quality and consistency.
+
+- **Automated Checks: Pre-commit Hooks**
+  - Task: Set up [pre-commit](https://pre-commit.com/) to run ruff and other checks before every commit.
+  - Example prompt: "Set up pre-commit to run ruff and black on every commit. Add a .pre-commit-config.yaml and install the hooks."
+  - Why: Pre-commit ensures code quality checks are run automatically, preventing bad code from entering your repo.
+
+- **Letting the AI Agent Do the Heavy Lifting**
+  - Task: Use the agent to automate setup, explain configuration files, and troubleshoot issues.
+  - Example prompt: "Automate the setup of uv, ruff, and pre-commit for this project. Explain what each tool does and how to use it."
+  - Example prompt: "If I get a pre-commit error, help me understand and fix it."
+
+- **Go Deeper:**
+  - [uv: Fast Python Package Manager](https://github.com/astral-sh/uv)
+  - [Ruff: Python Linter & Formatter](https://docs.astral.sh/ruff/)
+  - [pre-commit: Framework for Managing Git Hooks](https://pre-commit.com/)
+  - [Dev Containers](https://containers.dev/)
+
+---
+
 ## Best Practices for Prompting Cursor-Style Agents
 
 - **Be Specific and Contextual:**  
