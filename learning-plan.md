@@ -12,9 +12,19 @@ A rapid, hands-on curriculum for mastering Git, AI-assisted development, and mod
 - **Instant Git Setup**
   - Initialize a repo, make your first commit, and push to GitHub (with AI guidance)
   - Using the AI to explain each step and troubleshoot errors
+- **Integrate Cursor IDE with GitHub**
+  - Open Cursor IDE and go to the settings or preferences menu.
+  - Find the "Version Control" or "GitHub" integration section.
+  - Sign in with your GitHub account and authorize Cursor IDE.
+  - Clone a repository from GitHub using Cursor's interface, or open an existing local repo and connect it to GitHub.
+  - Confirm that you can see Git status, commit, push, and pull directly from Cursor.
+- **Test Your Integration with the AI Mentor**
+  - Use this prompt to have the agent verify your setup:
+    > "Agent, please check if my Cursor IDE is properly connected to GitHub. Try making a test commit and pushing it to my repository. If there are any issues, guide me through fixing them."
 - **Go Deeper:**  
   - [Pro Git Book](https://git-scm.com/book/en/v2)  
-  - [GitHub Docs: Getting Started](https://docs.github.com/en/get-started)
+  - [GitHub Docs: Getting Started](https://docs.github.com/en/get-started)  
+  - [Cursor IDE Docs: GitHub Integration](https://www.cursor.so/docs/integrations/github)
 
 ---
 
