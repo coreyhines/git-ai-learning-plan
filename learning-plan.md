@@ -4,7 +4,41 @@ A rapid, hands-on curriculum for mastering Git, AI-assisted development, and mod
 
 ---
 
-## Module 1: Kickstart – Your AI Mentor & Git in Action
+## Module 1: Crafting a Frictionless Terminal Environment with Zsh & Oh-My-Zsh
+
+- **Why Your Terminal Matters**
+  - A smooth, powerful terminal setup saves time, reduces frustration, and makes development more enjoyable.
+  - Modern shells like Zsh, enhanced with Oh-My-Zsh and plugins, provide features like autosuggestions, syntax highlighting, and beautiful prompts.
+  - Example prompt: "Why do developers prefer Zsh and Oh-My-Zsh over Bash?"
+
+- **Setting Up Zsh and Oh-My-Zsh**
+  - Task: Install Zsh (if not already your default shell) and Oh-My-Zsh for easy configuration and plugin management.
+  - Example prompt: "Guide me through installing Zsh and Oh-My-Zsh on my system."
+  - Example prompt: "How do I make Zsh my default shell?"
+
+- **Must-Have Plugins for Productivity**
+  - Task: Add plugins like zsh-autosuggestions, zsh-syntax-highlighting, and powerlevel10k for a buttery smooth experience.
+  - Example prompt: "Install and configure zsh-autosuggestions and zsh-syntax-highlighting."
+  - Example prompt: "Set up the powerlevel10k theme for a beautiful prompt."
+  - Why: These plugins boost speed, reduce errors, and make your terminal a joy to use.
+
+- **Letting the Agent Help**
+  - Task: Use the agent to explain, install, and troubleshoot your shell environment and plugins.
+  - Example prompt: "Explain what each Oh-My-Zsh plugin does and recommend the best ones for developers."
+  - Example prompt: "If my Zsh config is slow or buggy, help me debug and optimize it."
+
+- **Going Deeper: Resources & Videos**
+  - [Oh My Zsh Official Site](https://ohmyz.sh/)
+  - [Awesome Zsh Plugins](https://github.com/unixorn/awesome-zsh-plugins)
+  - [Powerlevel10k Theme](https://github.com/romkatv/powerlevel10k)
+  - [Zsh Autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+  - [Zsh Syntax Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+  - [Video: How to Set Up a Beautiful Zsh Terminal (YouTube)](https://www.youtube.com/watch?v=msyAY6L7XJQ)
+  - [Video: Oh My Zsh! Productivity Tips (YouTube)](https://www.youtube.com/watch?v=Z9OYc1u6Rwc)
+
+---
+
+## Module 2: Kickstart – Your AI Mentor & Git in Action
 
 - **Meet Your AI Mentor**
   - Learn how the AI agent can guide, review, and unblock you throughout your workflow.
@@ -27,7 +61,7 @@ A rapid, hands-on curriculum for mastering Git, AI-assisted development, and mod
 
 ---
 
-## Module 2: Branching, Iterating, and Rolling Back – Fast
+## Module 3: Branching, Iterating, and Rolling Back – Fast
 
 - **Branching with AI**
   - Task: Create, switch, and merge branches for new features or experiments.
@@ -47,7 +81,7 @@ A rapid, hands-on curriculum for mastering Git, AI-assisted development, and mod
 
 ---
 
-## Module 3: AI + Cursor IDE + GitHub Integration
+## Module 4: AI + Cursor IDE + GitHub Integration
 
 - **Connect Everything**
   - Task: Ensure your GitHub repo is linked in Cursor IDE and you can see Git status, commit, push, and pull.
@@ -64,7 +98,7 @@ A rapid, hands-on curriculum for mastering Git, AI-assisted development, and mod
 
 ---
 
-## Module 4: Supercharge with Model Context Protocols (MCP)
+## Module 5: Supercharge with Model Context Protocols (MCP)
 
 - **What is MCP?**
   - Learn how MCP tools expand your AI's context and capabilities for smarter assistance.
@@ -101,7 +135,7 @@ A rapid, hands-on curriculum for mastering Git, AI-assisted development, and mod
 
 ---
 
-## Module 5: Real-World Project – Rapid Co-Development
+## Module 6: Real-World Project – Rapid Co-Development
 
 - **Build Something Real, Fast**
   - Task: Define a small project (e.g., CLI tool, web app) with the AI's help.
@@ -121,7 +155,7 @@ A rapid, hands-on curriculum for mastering Git, AI-assisted development, and mod
 
 ---
 
-## Module 6: Laying the Foundation for a Modern Python Project
+## Module 7: Laying the Foundation for a Modern Python Project
 
 - **Project Structure & Initialization**
   - Task: Create a clean project directory and initialize it in Cursor IDE.
@@ -160,7 +194,7 @@ A rapid, hands-on curriculum for mastering Git, AI-assisted development, and mod
 
 ---
 
-## Module 7: Automating CI and Testing with Your AI Agent
+## Module 8: Automating CI and Testing with Your AI Agent
 
 - **Setting Up a CI Pipeline with GitHub Actions**
   - Task: Automate continuous integration (CI) for your project using GitHub Actions.
