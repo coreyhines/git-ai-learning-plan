@@ -12,13 +12,26 @@ A rapid, hands-on curriculum for mastering Git, AI-assisted development, and mod
   - Example prompt: "Why do developers prefer Zsh and Oh-My-Zsh over Bash?"
 
 - **Setting Up Zsh and Oh-My-Zsh**
-  - Task: Install Zsh (if not already your default shell—Zsh is the default on macOS since Catalina 10.15) and Oh-My-Zsh for easy configuration and plugin management.
-  - Note: To open the terminal in Cursor IDE, use the menu (View > Terminal) or the shortcut (usually Ctrl+` or Cmd+` on Mac). You can run all shell commands directly from this terminal.
-  - To install Oh-My-Zsh, run:
-    ```sh
-    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-    ```
-    in your Cursor IDE terminal.
+  - **Step 1: Check Your Shell**
+    - Zsh is the default shell on macOS since Catalina (10.15). To check your current shell, run:
+      ```sh
+      echo $SHELL
+      ```
+    - If your shell is not Zsh, you can install it and set it as default.
+  - **Step 2: Install Zsh (if needed)**
+    - On most systems, you can install Zsh with your package manager (e.g., `brew install zsh` on macOS, `sudo apt install zsh` on Ubuntu).
+    - To make Zsh your default shell, run:
+      ```sh
+      chsh -s $(which zsh)
+      ```
+  - **Step 3: Open the Terminal in Cursor IDE**
+    - Use the menu (View > Terminal) or the shortcut (usually Ctrl+` or Cmd+` on Mac) to open a terminal inside Cursor IDE.
+  - **Step 4: Install Oh-My-Zsh**
+    - In your Cursor IDE terminal, run:
+      ```sh
+      sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+      ```
+    - Oh-My-Zsh makes it easy to manage plugins, themes, and your Zsh configuration.
   - Example prompt: "Guide me through installing Zsh and Oh-My-Zsh on my system."
   - Example prompt: "How do I make Zsh my default shell?"
 
