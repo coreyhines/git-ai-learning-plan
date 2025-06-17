@@ -68,16 +68,35 @@ A rapid, hands-on curriculum for mastering Git, AI-assisted development, and mod
 - **What is MCP?**
   - Learn how MCP tools expand your AI's context and capabilities for smarter assistance.
   - Example prompt: "What are Model Context Protocols and how can they help me in Cursor?"
-- **Hands-On: Install & Use a Free MCP Tool**
-  - Task: Set up an MCP CLI or browser extension and connect it to your project.
+- **Hands-On: Install & Use the Official Everything MCP Server**
+  - Task: Set up the official Everything MCP Server (`@modelcontextprotocol/server-everything`) to experiment with a variety of MCP tools.
+  - **Quick Start:**
+    1. Make sure you have Node.js installed.
+    2. Run the server with:
+       ```sh
+       npx @modelcontextprotocol/server-everything
+       ```
+    3. (Optional) Integrate with VS Code by adding to `.vscode/mcp.json`:
+       ```json
+       {
+         "servers": {
+           "everything": {
+             "command": "npx",
+             "args": ["-y", "@modelcontextprotocol/server-everything"]
+           }
+         }
+       }
+       ```
+    4. Explore the available tools (e.g., `add`, `echo`, `sampleLLM`, `printEnv`) and try calling them from your AI agent or IDE.
   - Use the AI to guide installation, configuration, and first use.
-  - Example prompt: "Walk me through installing and using a free MCP tool with Cursor."
+  - Example prompt: "Walk me through installing and using the Everything MCP Server with Cursor."
 - **Enhance Your Workflow**
   - Task: Use MCP to search code, share context, and automate tasks with the AI.
   - Example prompt: "Use MCP to search for all functions related to authentication in my codebase."
 - **Go Deeper:**  
-  - [Model Context Protocols Overview](https://modelcontext.org/)  
-  - [MCP CLI Example](https://github.com/modelcontext/mcp-cli)
+  - [Everything MCP Server on npm](https://www.npmjs.com/package/@modelcontextprotocol/server-everything)
+  - [MCP Tools Documentation](https://modelcontextprotocol.io/docs/concepts/tools)
+  - [MCP Example Servers](https://modelcontextprotocol.io/introduction)
 
 ---
 
