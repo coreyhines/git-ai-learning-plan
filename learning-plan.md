@@ -8,7 +8,7 @@ A rapid, hands-on curriculum for mastering Git, AI-assisted development, and mod
 
 - **Why Your Terminal Matters**
   - A smooth, powerful terminal setup saves time, reduces frustration, and makes development more enjoyable.
-  - Modern shells like Zsh, enhanced with Oh-My-Zsh and plugins, provide features like autosuggestions, syntax highlighting, and beautiful prompts.
+  - Modern shells like Zsh, enhanced with Oh-My-Zsh and plugins, provide features like autosuggestions, syntax highlighting, and especially a powerful, informative prompt.
   - Example prompt: "Why do developers prefer Zsh and Oh-My-Zsh over Bash?"
 
 - **Setting Up Zsh and Oh-My-Zsh**
@@ -17,24 +17,31 @@ A rapid, hands-on curriculum for mastering Git, AI-assisted development, and mod
   - Example prompt: "How do I make Zsh my default shell?"
 
 - **Must-Have Plugins for Productivity**
-  - Task: Add plugins like zsh-autosuggestions, zsh-syntax-highlighting, and powerlevel10k for a buttery smooth experience.
+  - Task: Add plugins like zsh-autosuggestions and zsh-syntax-highlighting for a buttery smooth experience.
   - Example prompt: "Install and configure zsh-autosuggestions and zsh-syntax-highlighting."
-  - Example prompt: "Set up the powerlevel10k theme for a beautiful prompt."
   - Why: These plugins boost speed, reduce errors, and make your terminal a joy to use.
 
+- **A Prompt That Works for You: Git Integration and Context**
+  - Task: Customize your Zsh prompt to show useful information, especially Git branch/status, Python environment, and more.
+  - Example prompt: "Help me set up my Zsh prompt to show the current Git branch and status."
+  - Why: A good prompt gives you instant feedback about your repo state (e.g., branch, dirty/clean, staged changes), reducing mistakes and context switching. It can also show Python virtualenv, time, and more—making you more productive and less likely to make Git errors.
+  - Example prompt: "Explain what each part of my Zsh prompt means and how to customize it for my workflow."
+
 - **Letting the Agent Help**
-  - Task: Use the agent to explain, install, and troubleshoot your shell environment and plugins.
+  - Task: Use the agent to explain, install, and troubleshoot your shell environment, plugins, and prompt customization.
   - Example prompt: "Explain what each Oh-My-Zsh plugin does and recommend the best ones for developers."
   - Example prompt: "If my Zsh config is slow or buggy, help me debug and optimize it."
+  - Example prompt: "Suggest a Zsh prompt theme or config that works well for Git workflows."
 
 - **Going Deeper: Resources & Videos**
   - [Oh My Zsh Official Site](https://ohmyz.sh/)
   - [Awesome Zsh Plugins](https://github.com/unixorn/awesome-zsh-plugins)
-  - [Powerlevel10k Theme](https://github.com/romkatv/powerlevel10k)
   - [Zsh Autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
   - [Zsh Syntax Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
   - [Video: How to Set Up a Beautiful Zsh Terminal (YouTube)](https://www.youtube.com/watch?v=msyAY6L7XJQ)
   - [Video: Oh My Zsh! Productivity Tips (YouTube)](https://www.youtube.com/watch?v=Z9OYc1u6Rwc)
+  - [Oh My Zsh Git Plugin](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git)
+  - [Customizing Your Zsh Prompt (Oh My Zsh Docs)](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)
 
 ---
 
