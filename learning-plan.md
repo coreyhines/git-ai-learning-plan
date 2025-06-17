@@ -7,20 +7,19 @@ A rapid, hands-on curriculum for mastering Git, AI-assisted development, and mod
 ## Module 1: Kickstart – Your AI Mentor & Git in Action
 
 - **Meet Your AI Mentor**
-  - How the AI will guide, review, and unblock you
-  - Example: Asking the AI to explain, fix, or generate code
+  - Learn how the AI agent can guide, review, and unblock you throughout your workflow.
+  - Example prompt: "What can you help me with in this project?"
 - **Instant Git Setup**
-  - Initialize a repo, make your first commit, and push to GitHub (with AI guidance)
-  - Using the AI to explain each step and troubleshoot errors
+  - Task: Initialize a new Git repository, make your first commit, and push to GitHub.
+  - Use the AI to walk you through each step, explain commands, and troubleshoot errors.
+  - Example prompt: "Help me set up a new Git repository and push it to GitHub. Explain each step."
 - **Integrate Cursor IDE with GitHub**
-  - Open Cursor IDE and go to the settings or preferences menu.
-  - Find the "Version Control" or "GitHub" integration section.
-  - Sign in with your GitHub account and authorize Cursor IDE.
-  - Clone a repository from GitHub using Cursor's interface, or open an existing local repo and connect it to GitHub.
-  - Confirm that you can see Git status, commit, push, and pull directly from Cursor.
+  - Task: Connect Cursor IDE to your GitHub account and verify integration.
+  - Use the AI to guide you through the integration process and check your setup.
+  - Example prompt: "Guide me through connecting Cursor IDE to my GitHub account."
 - **Test Your Integration with the AI Mentor**
-  - Use this prompt to have the agent verify your setup:
-    > "Check if my Cursor IDE is properly connected to GitHub. Try making a test commit and push it to my repository. If there are any issues, help me fix them."
+  - Task: Make a test commit and push to verify everything works.
+  - Example prompt: "Check if my Cursor IDE is properly connected to GitHub. Try making a test commit and push it to my repository. If there are any issues, help me fix them."
 - **Go Deeper:**  
   - [Pro Git Book](https://git-scm.com/book/en/v2)  
   - [GitHub Docs: Getting Started](https://docs.github.com/en/get-started)  
@@ -31,11 +30,16 @@ A rapid, hands-on curriculum for mastering Git, AI-assisted development, and mod
 ## Module 2: Branching, Iterating, and Rolling Back – Fast
 
 - **Branching with AI**
-  - Create, switch, and merge branches with AI help
-  - AI suggestions for branch naming and workflow
+  - Task: Create, switch, and merge branches for new features or experiments.
+  - Use the AI to suggest branch names, explain branching strategies, and automate branch creation.
+  - Example prompt: "Create a new branch for a feature called 'user-auth'. Explain why and how to use branches."
 - **Iterate Rapidly**
-  - Use the AI to propose, review, and implement changes
-  - Rollback mistakes: reset, revert, checkout (AI explains and assists)
+  - Task: Make changes, commit, and use the AI to review and improve your code.
+  - Example prompt: "Review my latest commit and suggest improvements."
+- **Rollback Mistakes**
+  - Task: Use Git commands to reset, revert, or checkout previous states if something goes wrong.
+  - Use the AI to explain the difference between these commands and guide you through rollbacks.
+  - Example prompt: "I made a mistake in my last commit. Should I use reset, revert, or checkout? Help me fix it."
 - **Go Deeper:**  
   - [Atlassian Git Branching Guide](https://www.atlassian.com/git/tutorials/using-branches)  
   - [Git Reset, Revert, and Checkout](https://www.git-tower.com/learn/git/ebook/en/command-line/advanced-topics/undoing-things)
@@ -45,11 +49,14 @@ A rapid, hands-on curriculum for mastering Git, AI-assisted development, and mod
 ## Module 3: AI + Cursor IDE + GitHub Integration
 
 - **Connect Everything**
-  - Step-by-step: Link GitHub to Cursor IDE (AI walks you through)
-  - Use Cursor's Git features with AI explanations
+  - Task: Ensure your GitHub repo is linked in Cursor IDE and you can see Git status, commit, push, and pull.
+  - Example prompt: "Show me how to use Git features in Cursor IDE."
 - **AI-Driven Code Reviews & PRs**
-  - Let the AI review your code and suggest improvements
-  - Create and review pull requests with AI support
+  - Task: Use the AI to review your code, suggest improvements, and help you create pull requests.
+  - Example prompt: "Review my code and help me create a pull request for my latest feature."
+- **Collaborate with the AI**
+  - Task: Use the agent to explain diffs, resolve merge conflicts, and document your changes.
+  - Example prompt: "Explain the differences between these two branches and help me resolve any conflicts."
 - **Go Deeper:**  
   - [Cursor IDE Docs](https://www.cursor.so/docs)  
   - [GitHub Pull Requests](https://docs.github.com/en/pull-requests)
@@ -59,10 +66,15 @@ A rapid, hands-on curriculum for mastering Git, AI-assisted development, and mod
 ## Module 4: Supercharge with Model Context Protocols (MCP)
 
 - **What is MCP?**
-  - How MCP tools expand your AI's context and capabilities
+  - Learn how MCP tools expand your AI's context and capabilities for smarter assistance.
+  - Example prompt: "What are Model Context Protocols and how can they help me in Cursor?"
 - **Hands-On: Install & Use a Free MCP Tool**
-  - Example: Setting up and using MCP CLI or browser extension
-  - Use AI to search code, share context, and automate tasks
+  - Task: Set up an MCP CLI or browser extension and connect it to your project.
+  - Use the AI to guide installation, configuration, and first use.
+  - Example prompt: "Walk me through installing and using a free MCP tool with Cursor."
+- **Enhance Your Workflow**
+  - Task: Use MCP to search code, share context, and automate tasks with the AI.
+  - Example prompt: "Use MCP to search for all functions related to authentication in my codebase."
 - **Go Deeper:**  
   - [Model Context Protocols Overview](https://modelcontext.org/)  
   - [MCP CLI Example](https://github.com/modelcontext/mcp-cli)
@@ -72,10 +84,17 @@ A rapid, hands-on curriculum for mastering Git, AI-assisted development, and mod
 ## Module 5: Real-World Project – Rapid Co-Development
 
 - **Build Something Real, Fast**
-  - Define a small project (e.g., CLI tool, web app) with AI brainstorming
-  - Use AI and Git together to plan, build, and iterate
-  - Practice branching, merging, rollbacks, and PRs in a real scenario
-  - Use MCP tools to enhance your workflow
+  - Task: Define a small project (e.g., CLI tool, web app) with the AI's help.
+  - Example prompt: "Help me brainstorm and outline a simple CLI tool project."
+- **Plan, Build, and Iterate with AI**
+  - Task: Use the AI to break down the project into tasks, create branches, and implement features step by step.
+  - Example prompt: "Create a task list for this project and help me start the first feature branch."
+- **Practice Branching, Merging, and Rollbacks**
+  - Task: Use the AI to guide you through branching, merging, and rolling back changes as you develop.
+  - Example prompt: "Guide me through merging my feature branch and resolving any conflicts."
+- **Use MCP Tools to Enhance Workflow**
+  - Task: Leverage MCP for advanced code search, context sharing, and automation.
+  - Example prompt: "Show me how to use MCP to document and share project context with collaborators."
 - **Go Deeper:**  
   - [Open Source Guides](https://opensource.guide/)  
   - [Effective Pair Programming](https://martinfowler.com/articles/on-pair-programming.html)
