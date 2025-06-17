@@ -12,7 +12,7 @@ A rapid, hands-on curriculum for mastering Git, AI-assisted development, and mod
   - Example prompt: "Why do developers prefer Zsh and Oh-My-Zsh over Bash?"
 
 - **Setting Up Zsh and Oh-My-Zsh**
-  - Task: Install Zsh (if not already your default shell) and Oh-My-Zsh for easy configuration and plugin management.
+  - Task: Install Zsh (if not already your default shell—Zsh is the default on macOS since Catalina 10.15) and Oh-My-Zsh for easy configuration and plugin management.
   - Example prompt: "Guide me through installing Zsh and Oh-My-Zsh on my system."
   - Example prompt: "How do I make Zsh my default shell?"
 
