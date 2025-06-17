@@ -41,6 +41,17 @@ This learning plan is designed for developers who are experienced with programmi
   git push -u origin main
   ```
 
+#### Example AI Prompts for Repository Setup
+```
+"Create a new GitHub repository called 'my-project' with a basic README and MIT license"
+
+"Initialize git in my current directory and set up the remote for my new GitHub repository"
+
+"Help me create my first commit and push it to the main branch"
+
+"I have a local project that I want to push to GitHub. Can you help me set that up?"
+```
+
 ## Phase 2: Leveraging AI in Your Workflow
 
 ### 2.1 Project Initialization Best Practices
@@ -59,6 +70,17 @@ This learning plan is designed for developers who are experienced with programmi
   - Debugging
   - Code review
 - Understanding AI's capabilities and limitations
+
+#### Example AI Prompts for Development Tasks
+```
+"Review my code changes and help me write a good commit message"
+
+"I want to create a new feature branch for implementing user authentication. Can you help me with the git commands?"
+
+"Can you help me resolve these merge conflicts in my package.json file?"
+
+"I need to undo my last commit that hasn't been pushed yet. What's the safest way to do that?"
+```
 
 ### 2.3 Best Practices with AI
 - Writing clear and specific prompts
@@ -82,12 +104,34 @@ This learning plan is designed for developers who are experienced with programmi
 - Handling feedback and iterations
 - Merging strategies
 
+#### Example AI Prompts for Pull Requests
+```
+"Create a pull request for my feature branch with a description of the changes I made"
+
+"Review the changes in my PR and suggest improvements"
+
+"Help me write a detailed PR description for these changes: [list of changes]"
+
+"What's the best way to merge this PR while maintaining a clean git history?"
+```
+
 ### 3.3 Collaboration Best Practices
 - Commit message conventions
 - Code review etiquette
 - Handling merge conflicts
 - Using GitHub issues effectively
 - Project boards and milestones
+
+#### Example AI Prompts for Collaboration
+```
+"Help me write a conventional commit message for these changes: [description of changes]"
+
+"Create a new issue for a bug I found in the login system"
+
+"I need to cherry-pick a commit from the main branch to my feature branch"
+
+"Help me set up a project board for tracking feature development"
+```
 
 ## Phase 4: Development Environment Optimization
 
@@ -108,6 +152,87 @@ This learning plan is designed for developers who are experienced with programmi
 - SSH key management
 - GPG signing commits
 - Security scanning tools
+
+#### Example AI Prompts for Security Tasks
+```
+"Help me generate and add an SSH key to my GitHub account"
+
+"Set up GPG signing for my commits and configure git to use it"
+
+"I accidentally committed a secret key. How can I remove it from the git history?"
+
+"Help me create a .gitignore file that excludes sensitive information"
+```
+
+### New Section: Effective AI Prompting for Git Operations
+
+#### General Tips for AI Git Prompts
+1. Be specific about your current state
+   ```
+   "I'm on branch 'feature/login' and want to update it with changes from main"
+   ```
+
+2. Include relevant error messages
+   ```
+   "I got this git error when trying to push: [error message]. What should I do?"
+   ```
+
+3. Specify your desired outcome
+   ```
+   "I want to combine my last 3 commits into one before pushing to the remote"
+   ```
+
+4. Ask for explanations
+   ```
+   "Can you explain what this git command does and why we're using these flags?"
+   ```
+
+#### Common Scenarios and Example Prompts
+
+1. Branch Management
+   ```
+   "Create a new branch for implementing feature X and set it up for tracking"
+   
+   "I need to switch to a different branch but have uncommitted changes"
+   
+   "Help me rename my current branch from X to Y"
+   ```
+
+2. History Management
+   ```
+   "Show me how to view the git history for this specific file"
+   
+   "I need to find which commit introduced this bug"
+   
+   "Help me clean up my commit history before creating a PR"
+   ```
+
+3. Remote Operations
+   ```
+   "Add a new remote repository and fetch its contents"
+   
+   "Update my fork with changes from the upstream repository"
+   
+   "Push my changes to multiple remote repositories"
+   ```
+
+4. Recovery Operations
+   ```
+   "Help me recover a deleted branch that wasn't pushed"
+   
+   "I need to undo changes that were pushed to the remote"
+   
+   "Restore a specific file from a previous commit"
+   ```
+
+5. Configuration
+   ```
+   "Set up my git configuration with my name and email"
+   
+   "Configure git to always rebase instead of merge on pull"
+   
+   "Help me set up git aliases for common commands"
+   ```
 
 ## Phase 5: Advanced Topics
 
