@@ -20,7 +20,7 @@ A rapid, hands-on curriculum for mastering Git, AI-assisted development, and mod
   - Confirm that you can see Git status, commit, push, and pull directly from Cursor.
 - **Test Your Integration with the AI Mentor**
   - Use this prompt to have the agent verify your setup:
-    > "Agent, please check if my Cursor IDE is properly connected to GitHub. Try making a test commit and pushing it to my repository. If there are any issues, guide me through fixing them."
+    > "Check if my Cursor IDE is properly connected to GitHub. Try making a test commit and push it to my repository. If there are any issues, help me fix them."
 - **Go Deeper:**  
   - [Pro Git Book](https://git-scm.com/book/en/v2)  
   - [GitHub Docs: Getting Started](https://docs.github.com/en/get-started)  
@@ -79,6 +79,34 @@ A rapid, hands-on curriculum for mastering Git, AI-assisted development, and mod
 - **Go Deeper:**  
   - [Open Source Guides](https://opensource.guide/)  
   - [Effective Pair Programming](https://martinfowler.com/articles/on-pair-programming.html)
+
+---
+
+## Best Practices for Prompting Cursor-Style Agents
+
+- **Be Specific and Contextual:**  
+  Clearly state your goal, provide relevant code or file references, and specify the language or framework if needed.
+- **Use Step-by-Step (Chain-of-Thought) Prompts:**  
+  For complex tasks, break your request into steps or ask the agent to explain its reasoning as it works.
+- **Give Examples (Few-Shot Prompting):**  
+  If you want a certain style or format, provide a short example in your prompt.
+- **Iterate and Refine:**  
+  Don't expect perfection on the first try—ask follow-up questions, request clarifications, and refine your prompt as needed.
+- **Ask for Explanations:**  
+  If you don't understand a suggestion, ask the agent to explain its reasoning or the code it generated.
+- **Leverage Cursor Rules:**  
+  Use `.cursorrules` to set project-specific guidelines for the agent, such as coding style, error handling, or naming conventions.
+- **Review and Test AI-Generated Code:**  
+  Always review, test, and validate code before merging or deploying.
+- **Be Polite and Clear:**  
+  While not required, a friendly and clear tone can improve results and make collaboration smoother.
+
+### References & Further Reading
+
+- [AI-Powered Coding Assistants: Best Practices (Monterail)](https://www.monterail.com/blog/ai-powered-coding-assistants-best-practices)
+- [Maximizing Your Cursor Use (Medium)](https://extremelysunnyyk.medium.com/maximizing-your-cursor-use-advanced-prompting-cursor-rules-and-tooling-integration-496181fa919c)
+- [Top Cursor Rules for Coding Agents (PromptHub)](https://www.prompthub.us/blog/top-cursor-rules-for-coding-agents)
+- [Cursor System Prompt Revealed (Pat McGuinness)](https://patmcguinness.substack.com/p/cursor-system-prompt-revealed)
 
 ---
 
