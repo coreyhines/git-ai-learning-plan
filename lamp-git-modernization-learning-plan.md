@@ -1,3 +1,32 @@
+```mermaid
+flowchart TD
+    A["Existing LAMP Site (Remote Server)"]
+    B["Initialize Git Repo"]
+    C["Connect to GitHub (SSH Keys)"]
+    D["Push to GitHub"]
+    E["Clone Repo Locally / in Dev Container"]
+    F["Local Dev in Dev Container"]
+    G["Commit & Push Changes"]
+    H["Pull Changes to Remote Server"]
+    I["Branch for ClientA"]
+    J["Branch for ClientB"]
+    K["Deploy to Production"]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> D
+    D --> H
+    H --> K
+    G --> I
+    G --> J
+    I --> G
+    J --> G
+```
+
 # Rapid Git & Modern Workflow Onboarding for Existing LAMP Sites
 
 **Audience:**  
