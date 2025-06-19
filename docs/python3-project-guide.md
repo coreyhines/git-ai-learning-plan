@@ -59,8 +59,9 @@ your-project/
 
 4. Set Up Pre-commit Hooks
 
+   Create a `.pre-commit-config.yaml` file:
+
    ```yaml
-   # .pre-commit-config.yaml
    repos:
      - repo: https://github.com/pre-commit/pre-commit-hooks
        rev: v4.5.0
