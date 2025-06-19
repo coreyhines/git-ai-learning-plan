@@ -1,0 +1,27 @@
+site_name: Agentic AI Learning Plan
+nav:
+  - Home: index.md
+  - Main AI & Git Learning Plan: ai-git-learning-plan.md
+  - LAMP Modernization (Devcontainer): lamp-modernization-devcontainer.md
+  - LAMP Modernization (MAMP): lamp-modernization-mamp.md
+  - Quick Git Branch & PR Guide: git-branch-pr-guide.md
+  - Portable Shell & Dotfiles Guide: portable-shell-dotfiles.md
+  - Agentic AI Access Guide: agentic-ai-access.md
+  - Dotfiles Example README: dotfiles-examples.md
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.top
+    - content.code.annotate
+    - content.tabs.link
+    - search.suggest
+    - search.highlight
+    - toc.integrate
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - meta
+  - toc:
+      permalink: true 
