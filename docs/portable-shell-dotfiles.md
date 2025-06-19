@@ -25,17 +25,21 @@ A guide to ensuring your terminal is always powerful, familiar, and productiveâ€
 ## Strategies for Managing Dotfiles
 
 ### 1. **Simple Git Repo (Symlink Approach)**
+
 - Store your dotfiles in a Git repo (e.g., `~/dotfiles`).
 - Symlink them into your home directory.
-- Example:  
+- Example:
+
   ```sh
   ln -s ~/dotfiles/.zshrc ~/.zshrc
   ```
 
 ### 2. **Bare Git Repo ("Dotbare" Pattern)**
+
 - Keep your home directory as the working tree, but store the Git repo elsewhere.
 - No symlinks needed; files live in `~`.
-- Example setup:  
+- Example setup:
+
   ```sh
   git clone --bare git@github.com:yourname/dotfiles.git $HOME/.dotfiles
   alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
@@ -43,6 +47,7 @@ A guide to ensuring your terminal is always powerful, familiar, and productiveâ€
   ```
 
 ### 3. **Dotfile Managers**
+
 - Tools like [chezmoi](https://www.chezmoi.io/), [yadm](https://yadm.io/), or [rcm](https://github.com/thoughtbot/rcm) automate syncing, templating, and OS-specific config.
 
 ---
@@ -58,11 +63,13 @@ A guide to ensuring your terminal is always powerful, familiar, and productiveâ€
 ## Bootstrapping Your Environment Anywhere
 
 1. **Clone Your Dotfiles Repo**
+
    ```sh
    git clone <repo-url> ~/dotfiles-examples
    cd ~/dotfiles-examples
    ./bootstrap.sh
    ```
+
 2. **Customize as Needed**
    - Add plugins, aliases, or modular configs to `zshrc.d/`.
    - Place secrets in `.zshrc.local` (never commit this file).
@@ -74,6 +81,7 @@ A guide to ensuring your terminal is always powerful, familiar, and productiveâ€
 See [`dotfiles-examples/.zshrc`](dotfiles-examples/.zshrc) for a full example.
 
 **OS Detection Example:**
+
 ```sh
 if [[ "$OSTYPE" == "darwin"* ]]; then
   export OS_TYPE="macos"
@@ -83,6 +91,7 @@ fi
 ```
 
 **SSH Session Detection Example:**
+
 ```sh
 if [[ -n "$SSH_CONNECTION" ]]; then
   export IS_SSH="1"
@@ -91,6 +100,7 @@ fi
 ```
 
 **Conditional Plugin Loading Example:**
+
 ```sh
 if [[ "$OS_TYPE" == "macos" ]]; then
   # macOS-specific plugins or paths
@@ -138,5 +148,5 @@ fi
 
 ---
 
-**Tip:**  
-A portable shell is a force multiplier. Invest in your dotfiles and you'll always feel at home in the terminalâ€”anywhere. 
+**Tip:**
+A portable shell is a force multiplier. Invest in your dotfiles and you'll always feel at home in the terminalâ€”anywhere.

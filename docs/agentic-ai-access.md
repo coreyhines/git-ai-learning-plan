@@ -2,6 +2,25 @@
 
 This supplement provides up-to-date advice for individuals on how to access agentic AI features in Cursor and Microsoft VS Code, including free tiers, cost models, and tips for maximizing productivity. Enterprise and team options are summarized for reference.
 
+# Agentic AI Access Guide
+
+This guide explains how to effectively use AI agents in your development workflow. We'll focus on best practices for interacting with AI
+assistants and maximizing their utility in your development process.
+
+## Key Concepts
+
+When working with AI agents, it's important to understand:
+
+1. Clear Communication
+   - Be specific in your requests
+   - Provide necessary context
+   - Ask follow-up questions when needed
+
+2. Effective Collaboration
+   - Treat the AI as a pair programmer
+   - Review and validate suggestions
+   - Iterate on solutions together
+
 ---
 
 ## Cursor IDE (for Individuals)
@@ -89,8 +108,9 @@ This supplement provides up-to-date advice for individuals on how to access agen
 ---
 
 **References & Further Reading:**
+
 - [Cursor Pricing](https://www.cursor.com/pricing)
 - [GitHub Copilot Plans](https://docs.github.com/en/copilot/about-github-copilot/plans-for-github-copilot)
 - [18 Free Copilot Alternatives for VS Code (Bito Blog)](https://bito.ai/blog/free-github-copilot-alternatives-for-vs-code/)
 - [Cursor vs Copilot Comparison (Zapier, 2025)](https://zapier.com/blog/cursor-vs-copilot/)
-- [VS Code Copilot Setup](https://code.visualstudio.com/docs/copilot/setup-simplified) 
+- [VS Code Copilot Setup](https://code.visualstudio.com/docs/copilot/setup-simplified)

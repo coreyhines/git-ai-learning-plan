@@ -19,23 +19,29 @@ A rapid, hands-on curriculum for mastering Git, AI-assisted development, and mod
 - **Setting Up Zsh and Oh-My-Zsh**
   - **Step 1: Check Your Shell**
     - Zsh is the default shell on macOS since Catalina (10.15). To check your current shell, run:
+
       ```sh
       echo $SHELL
       ```
+
     - If your shell is not Zsh, you can install it and set it as default.
   - **Step 2: Install Zsh (if needed)**
     - On most systems, you can install Zsh with your package manager (e.g., `brew install zsh` on macOS, `sudo apt install zsh` on Ubuntu).
     - To make Zsh your default shell, run:
+
       ```sh
       chsh -s $(which zsh)
       ```
+
   - **Step 3: Open the Terminal in Cursor IDE**
-    - Use the menu (View > Terminal) or the shortcut (usually Ctrl+` or Cmd+` on Mac) to open a terminal inside Cursor IDE.
+    - Use the menu (View > Terminal) or the shortcut (usually Ctrl+`or Cmd+` on Mac) to open a terminal inside Cursor IDE.
   - **Step 4: Install Oh-My-Zsh**
     - In your Cursor IDE terminal, run:
+
       ```sh
       sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
       ```
+
     - Oh-My-Zsh makes it easy to manage plugins, themes, and your Zsh configuration.
   - Example prompt: "Guide me through installing Zsh and Oh-My-Zsh on my system."
   - Example prompt: "How do I make Zsh my default shell?"
@@ -85,9 +91,9 @@ A rapid, hands-on curriculum for mastering Git, AI-assisted development, and mod
 - **Test Your Integration with the AI Mentor**
   - Task: Make a test commit and push to verify everything works.
   - Example prompt: "Check if my Cursor IDE is properly connected to GitHub. Try making a test commit and push it to my repository. If there are any issues, help me fix them."
-- **Go Deeper:**  
-  - [Pro Git Book](https://git-scm.com/book/en/v2)  
-  - [GitHub Docs: Getting Started](https://docs.github.com/en/get-started)  
+- **Go Deeper:**
+  - [Pro Git Book](https://git-scm.com/book/en/v2)
+  - [GitHub Docs: Getting Started](https://docs.github.com/en/get-started)
   - [Cursor IDE Docs: GitHub Integration](https://www.cursor.so/docs/integrations/github)
 
 ---
@@ -105,8 +111,8 @@ A rapid, hands-on curriculum for mastering Git, AI-assisted development, and mod
   - Task: Use Git commands to reset, revert, or checkout previous states if something goes wrong.
   - Use the AI to explain the difference between these commands and guide you through rollbacks.
   - Example prompt: "I made a mistake in my last commit. Should I use reset, revert, or checkout? Help me fix it."
-- **Go Deeper:**  
-  - [Atlassian Git Branching Guide](https://www.atlassian.com/git/tutorials/using-branches)  
+- **Go Deeper:**
+  - [Atlassian Git Branching Guide](https://www.atlassian.com/git/tutorials/using-branches)
   - [Git Reset, Revert, and Checkout](https://www.git-tower.com/learn/git/ebook/en/command-line/advanced-topics/undoing-things)
   - [Oh Shit, Git!?!](https://ohshitgit.com/)
 
@@ -123,8 +129,8 @@ A rapid, hands-on curriculum for mastering Git, AI-assisted development, and mod
 - **Collaborate with the AI**
   - Task: Use the agent to explain diffs, resolve merge conflicts, and document your changes.
   - Example prompt: "Explain the differences between these two branches and help me resolve any conflicts."
-- **Go Deeper:**  
-  - [Cursor IDE Docs](https://www.cursor.so/docs)  
+- **Go Deeper:**
+  - [Cursor IDE Docs](https://www.cursor.so/docs)
   - [GitHub Pull Requests](https://docs.github.com/en/pull-requests)
 
 ---
@@ -139,10 +145,13 @@ A rapid, hands-on curriculum for mastering Git, AI-assisted development, and mod
   - **Quick Start:**
     1. Make sure you have Node.js installed.
     2. Run the server with:
+
        ```sh
        npx @modelcontextprotocol/server-everything
        ```
+
     3. (Optional) Integrate with VS Code by adding to `.vscode/mcp.json`:
+
        ```json
        {
          "servers": {
@@ -153,13 +162,14 @@ A rapid, hands-on curriculum for mastering Git, AI-assisted development, and mod
          }
        }
        ```
+
     4. Explore the available tools (e.g., `add`, `echo`, `sampleLLM`, `printEnv`) and try calling them from your AI agent or IDE.
   - Use the AI to guide installation, configuration, and first use.
   - Example prompt: "Walk me through installing and using the Everything MCP Server with Cursor."
 - **Enhance Your Workflow**
   - Task: Use MCP to search code, share context, and automate tasks with the AI.
   - Example prompt: "Use MCP to search for all functions related to authentication in my codebase."
-- **Go Deeper:**  
+- **Go Deeper:**
   - [Everything MCP Server on npm](https://www.npmjs.com/package/@modelcontextprotocol/server-everything)
   - [MCP Tools Documentation](https://modelcontextprotocol.io/docs/concepts/tools)
   - [MCP Example Servers](https://modelcontextprotocol.io/introduction)
@@ -180,8 +190,8 @@ A rapid, hands-on curriculum for mastering Git, AI-assisted development, and mod
 - **Use MCP Tools to Enhance Workflow**
   - Task: Leverage MCP for advanced code search, context sharing, and automation.
   - Example prompt: "Show me how to use MCP to document and share project context with collaborators."
-- **Go Deeper:**  
-  - [Open Source Guides](https://opensource.guide/)  
+- **Go Deeper:**
+  - [Open Source Guides](https://opensource.guide/)
   - [Effective Pair Programming](https://martinfowler.com/articles/on-pair-programming.html)
 
 ---
@@ -255,21 +265,21 @@ A rapid, hands-on curriculum for mastering Git, AI-assisted development, and mod
 
 ## Best Practices for Prompting Cursor-Style Agents
 
-- **Be Specific and Contextual:**  
+- **Be Specific and Contextual:**
   Clearly state your goal, provide relevant code or file references, and specify the language or framework if needed.
-- **Use Step-by-Step (Chain-of-Thought) Prompts:**  
+- **Use Step-by-Step (Chain-of-Thought) Prompts:**
   For complex tasks, break your request into steps or ask the agent to explain its reasoning as it works.
-- **Give Examples (Few-Shot Prompting):**  
+- **Give Examples (Few-Shot Prompting):**
   If you want a certain style or format, provide a short example in your prompt.
-- **Iterate and Refine:**  
+- **Iterate and Refine:**
   Don't expect perfection on the first try—ask follow-up questions, request clarifications, and refine your prompt as needed.
-- **Ask for Explanations:**  
+- **Ask for Explanations:**
   If you don't understand a suggestion, ask the agent to explain its reasoning or the code it generated.
-- **Leverage Cursor Rules:**  
+- **Leverage Cursor Rules:**
   Use `.cursorrules` to set project-specific guidelines for the agent, such as coding style, error handling, or naming conventions.
-- **Review and Test AI-Generated Code:**  
+- **Review and Test AI-Generated Code:**
   Always review, test, and validate code before merging or deploying.
-- **Be Polite and Clear:**  
+- **Be Polite and Clear:**
   While not required, a friendly and clear tone can improve results and make collaboration smoother.
 
 ### References & Further Reading
@@ -294,3 +304,22 @@ A rapid, hands-on curriculum for mastering Git, AI-assisted development, and mod
 - Keep building with AI and Git
 - Explore advanced MCP integrations
 - Contribute to open source with your new skills
+
+## Common Scenarios and Solutions
+
+Here are some common scenarios you might encounter and how to handle them using Git with AI assistance:
+
+### Working with Branches
+
+When starting new work:
+
+1. Create a new branch from main
+2. Make your changes
+3. Commit regularly with clear messages
+4. Push to remote and create PR when ready
+
+AI can help with:
+
+- Generating meaningful commit messages
+- Reviewing changes for potential issues
+- Suggesting improvements to code quality

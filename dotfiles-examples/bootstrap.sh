@@ -31,4 +31,4 @@ if [ ! -d "$HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting" ]; then
   git clone https://github.com/zsh-users/zsh-syntax-highlighting "$HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting"
 fi
 
-echo "Dotfiles and Zsh environment bootstrapped!" 
+echo "Dotfiles and Zsh environment bootstrapped!"
