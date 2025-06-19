@@ -2,7 +2,7 @@
 
 A rapid, hands-on curriculum for mastering Git, AI-assisted development, and modern workflows with an expert AI mentor agent. Designed for fast progress, with deep-dive references for further exploration.
 
-> **New!** See the [Guide: Getting Access to Agentic AI in Cursor & VS Code (June 2025)](agentic-ai-access-guide.md) for up-to-date advice on free tiers, cost models, and maximizing productivity with agentic AI tools.
+> **New!** See the [Guide: Getting Access to Agentic AI in Cursor & VS Code (June 2025)](agentic-ai-access.md) for up-to-date advice on free tiers, cost models, and maximizing productivity with agentic AI tools.
 
 ---
 
@@ -14,7 +14,7 @@ A rapid, hands-on curriculum for mastering Git, AI-assisted development, and mod
   - Example prompt: "Why do developers prefer Zsh and Oh-My-Zsh over Bash?"
 
 - **Making Your Zsh Environment Portable**
-  - Want your 10x shell setup everywhere (local, remote, new machines)? See the [Portable Shell & Dotfiles Guide](portable-shell-dotfiles-guide.md) for best practices, example configs, and a bootstrap script.
+  - Want your 10x shell setup everywhere (local, remote, new machines)? See the [Portable Shell & Dotfiles Guide](portable-shell-dotfiles.md) for best practices, example configs, and a bootstrap script.
 
 - **Setting Up Zsh and Oh-My-Zsh**
   - **Step 1: Check Your Shell**

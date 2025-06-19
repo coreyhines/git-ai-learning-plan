@@ -6,30 +6,35 @@ A comprehensive resource for mastering modern development workflows with agentic
 
 ## Explore the Guides
 
+### Main Guides
 - [Main AI & Git Learning Plan](ai-git-learning-plan.md)
-- [LAMP Modernization (Devcontainer)](lamp-modernization-devcontainer.md)
-- [LAMP Modernization (MAMP)](lamp-modernization-mamp.md)
 - [Quick Git Branch & PR Guide](git-branch-pr-guide.md)
 - [Portable Shell & Dotfiles Guide](portable-shell-dotfiles.md)
 - [Agentic AI Access Guide](agentic-ai-access.md)
-- [Dotfiles Example README](dotfiles-examples.md)
+
+### Examples
+- [Python Project Setup](python3-project-guide.md)
+- LAMP Stack Examples:
+  - [With Dev Containers](lamp-modernization-devcontainer.md)
+  - [With MAMP](lamp-modernization-mamp.md)
+- [Dotfiles Examples](dotfiles-examples.md)
 
 For project background and contribution info, see the [GitHub README](https://github.com/coreyhines/git-ai-learning-plan/blob/main/README.md).
 
 ---
 
-## 📚 Learning Paths & Guides
+## 📚 Learning Paths & Examples
 
 Select the guide that best fits your needs:
 
-- **[Main AI & Git Learning Plan](learning-plan.md):**
+- **[Main AI & Git Learning Plan](ai-git-learning-plan.md):**
   A hands-on, modular curriculum for mastering Git, AI-assisted workflows, and modern development best practices with an expert AI mentor.
-- **[LAMP Modernization with Devcontainer](lamp-git-modernization-learning-plan.md):**
+- **[Python Project Setup](python3-project-guide.md):**
+  A comprehensive guide for setting up modern Python projects with best practices and current tooling.
+- **[LAMP Stack with Dev Containers](lamp-modernization-devcontainer.md):**
   Step-by-step onboarding for bringing an existing LAMP site into Git and modern workflows using VS Code devcontainers.
-- **[LAMP Modernization with MAMP](lamp-mamp-modernization-learning-plan.md):**
+- **[LAMP Stack with MAMP](lamp-modernization-mamp.md):**
   A parallel guide for LAMP stack modernization, but using MAMP for local development instead of containers.
-- **[Quick Git Branch & PR Guide](git-quick-branch-pr-guide.md):**
-  A concise, actionable reference for the most common Git operations: branching, committing, pushing, and opening pull requests.
 
 ---
 
@@ -54,11 +59,14 @@ Select the guide that best fits your needs:
 
 ## Structure
 
-- `learning-plan.md` – Main AI & Git curriculum
-- `lamp-git-modernization-learning-plan.md` – LAMP + Devcontainer modernization guide
-- `lamp-mamp-modernization-learning-plan.md` – LAMP + MAMP modernization guide
-- `git-quick-branch-pr-guide.md` – Quick Git workflow reference
-- `LICENSE` – MIT License
+- `ai-git-learning-plan.md` – Main AI & Git curriculum
+- `python3-project-guide.md` – Modern Python project setup guide
+- `lamp-modernization-devcontainer.md` – LAMP + Devcontainer guide
+- `lamp-modernization-mamp.md` – LAMP + MAMP guide
+- `git-branch-pr-guide.md` – Quick Git workflow reference
+- `portable-shell-dotfiles.md` – Shell and dotfiles guide
+- `agentic-ai-access.md` – AI assistance guide
+- `dotfiles-examples.md` – Example dotfiles configurations
 
 ---
 
