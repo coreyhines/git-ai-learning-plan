@@ -1,0 +1,6 @@
+# Ignore secrets and local overrides
+.zshrc.local
+.env
+.env.*
+.git-crypt
+sops.yaml 

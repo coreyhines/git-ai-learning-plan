@@ -109,6 +109,9 @@ A rapid, hands-on curriculum for mastering Git, AI-assisted development, and mod
   - Modern shells like Zsh, enhanced with Oh-My-Zsh and plugins, provide features like autosuggestions, syntax highlighting, and especially a powerful, informative prompt.
   - Example prompt: "Why do developers prefer Zsh and Oh-My-Zsh over Bash?"
 
+- **Making Your Zsh Environment Portable**
+  - Want your 10x shell setup everywhere (local, remote, new machines)? See the [Portable Shell & Dotfiles Guide](portable-shell-dotfiles-guide.md) for best practices, example configs, and a bootstrap script.
+
 - **Setting Up Zsh and Oh-My-Zsh**
   - **Step 1: Check Your Shell**
     - Zsh is the default shell on macOS since Catalina (10.15). To check your current shell, run:
