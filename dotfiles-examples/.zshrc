@@ -59,4 +59,4 @@ alias gs='git status'
 alias gl='git pull'
 alias gp='git push'
 
-# --- End of .zshrc --- 
+# --- End of .zshrc ---

@@ -77,4 +77,4 @@ Please ensure your contributions align with the existing style and structure.
 
 ## License
 
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details. 
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.

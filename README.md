@@ -21,11 +21,13 @@ All learning paths, guides, and modules are now published as a user-friendly sit
 This project uses [uv](https://github.com/astral-sh/uv) for fast, reliable Python package management.
 
 1. **Install uv** if you don't have it:
+
    ```sh
    curl -LsSf https://astral.sh/uv/install.sh | sh
    ```
 
 2. **Clone and install dependencies:**
+
    ```sh
    git clone https://github.com/coreyhines/git-ai-learning-plan.git
    cd git-ai-learning-plan
@@ -33,11 +35,13 @@ This project uses [uv](https://github.com/astral-sh/uv) for fast, reliable Pytho
    ```
 
 3. **Install pre-commit hooks:**
+
    ```sh
    pre-commit install
    ```
 
 4. **Run the docs locally:**
+
    ```sh
    mkdocs serve
    ```
@@ -65,6 +69,7 @@ This project uses [pre-commit](https://pre-commit.com/) to enforce Markdown and 
 > **We use [uv](https://github.com/astral-sh/uv) for Python package management.** It's faster and more reliable than raw pip. Always use `uv pip install ...` instead of `pip install ...`.
 
 **To check/fix all files manually:**
+
 ```sh
 ./run-precommit-checks.sh
 ```
