@@ -1,0 +1,964 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../python3-project-guide/">
+      
+      
+        <link rel="next" href="../lamp-modernization-mamp/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>With Dev Containers - Agentic AI Learning Plan</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#lamp-stack-modernization-with-dev-containers" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Agentic AI Learning Plan" class="md-header__button md-logo" aria-label="Agentic AI Learning Plan" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Agentic AI Learning Plan
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              With Dev Containers
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../ai-git-learning-plan/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Main AI & Git Learning Plan
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../python3-project-guide/" class="md-tabs__link">
+          
+  
+  
+  Examples
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../git-branch-pr-guide/" class="md-tabs__link">
+          
+  
+  
+  Guides
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Agentic AI Learning Plan" class="md-nav__button md-logo" aria-label="Agentic AI Learning Plan" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Agentic AI Learning Plan
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ai-git-learning-plan/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Main AI & Git Learning Plan
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Examples
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Examples
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../python3-project-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Python Project Setup
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    LAMP Stack
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            LAMP Stack
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    With Dev Containers
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    With Dev Containers
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#rapid-git-modern-workflow-learning-plan-lamp-stack-with-dev-containers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rapid Git &amp; Modern Workflow Learning Plan - LAMP Stack with Dev Containers
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#module-1-why-version-control-and-why-now" class="md-nav__link">
+    <span class="md-ellipsis">
+      Module 1: Why Version Control? (And Why Now)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#module-2-setting-up-git-for-your-existing-site" class="md-nav__link">
+    <span class="md-ellipsis">
+      Module 2: Setting Up Git for Your Existing Site
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#module-3-connecting-to-github-and-ssh-key-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Module 3: Connecting to GitHub (and SSH Key Management)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#module-4-local-development-with-dev-containers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Module 4: Local Development with Dev Containers
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#module-5-workflowfrom-local-to-remote" class="md-nav__link">
+    <span class="md-ellipsis">
+      Module 5: Workflow—From Local to Remote
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#module-6-branching-for-multiple-clients" class="md-nav__link">
+    <span class="md-ellipsis">
+      Module 6: Branching for Multiple Clients
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#module-7-best-practices-troubleshooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Module 7: Best Practices &amp; Troubleshooting
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resources-deep-dives" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resources &amp; Deep Dives
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lamp-modernization-mamp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    With MAMP
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dotfiles-examples/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Dotfiles
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Guides
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Guides
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../git-branch-pr-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Quick Git Branch & PR
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../portable-shell-dotfiles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Portable Shell & Dotfiles
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../agentic-ai-access/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Agentic AI Access
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="lamp-stack-modernization-with-dev-containers">LAMP Stack Modernization with Dev Containers<a class="headerlink" href="#lamp-stack-modernization-with-dev-containers" title="Permanent link">&para;</a></h1>
+<div class="codehilite"><pre><span></span><code><span class="n">flowchart</span><span class="w"> </span><span class="n">TD</span>
+<span class="w">    </span><span class="n">A</span><span class="p">[</span><span class="s">&quot;Existing LAMP Site (Remote Server)&quot;</span><span class="p">]</span>
+<span class="w">    </span><span class="n">B</span><span class="p">[</span><span class="s">&quot;Initialize Git Repo&quot;</span><span class="p">]</span>
+<span class="w">    </span><span class="n">C</span><span class="p">[</span><span class="s">&quot;Connect to GitHub (SSH Keys)&quot;</span><span class="p">]</span>
+<span class="w">    </span><span class="n">D</span><span class="p">[</span><span class="s">&quot;Push to GitHub&quot;</span><span class="p">]</span>
+<span class="w">    </span><span class="n">E</span><span class="p">[</span><span class="s">&quot;Clone Repo Locally / in Dev Container&quot;</span><span class="p">]</span>
+<span class="w">    </span><span class="n">F</span><span class="p">[</span><span class="s">&quot;Local Dev in Dev Container&quot;</span><span class="p">]</span>
+<span class="w">    </span><span class="n">G</span><span class="p">[</span><span class="s">&quot;Commit &amp; Push Changes&quot;</span><span class="p">]</span>
+<span class="w">    </span><span class="n">H</span><span class="p">[</span><span class="s">&quot;Pull Changes to Remote Server&quot;</span><span class="p">]</span>
+<span class="w">    </span><span class="n">I</span><span class="p">[</span><span class="s">&quot;Branch for ClientA&quot;</span><span class="p">]</span>
+<span class="w">    </span><span class="n">J</span><span class="p">[</span><span class="s">&quot;Branch for ClientB&quot;</span><span class="p">]</span>
+<span class="w">    </span><span class="n">K</span><span class="p">[</span><span class="s">&quot;Deploy to Production&quot;</span><span class="p">]</span>
+
+<span class="w">    </span><span class="n">A</span><span class="w"> </span><span class="o">--&gt;</span><span class="w"> </span><span class="n">B</span>
+<span class="w">    </span><span class="n">B</span><span class="w"> </span><span class="o">--&gt;</span><span class="w"> </span><span class="n">C</span>
+<span class="w">    </span><span class="n">C</span><span class="w"> </span><span class="o">--&gt;</span><span class="w"> </span><span class="n">D</span>
+<span class="w">    </span><span class="n">D</span><span class="w"> </span><span class="o">--&gt;</span><span class="w"> </span><span class="n">E</span>
+<span class="w">    </span><span class="n">E</span><span class="w"> </span><span class="o">--&gt;</span><span class="w"> </span><span class="n">F</span>
+<span class="w">    </span><span class="n">F</span><span class="w"> </span><span class="o">--&gt;</span><span class="w"> </span><span class="n">G</span>
+<span class="w">    </span><span class="n">G</span><span class="w"> </span><span class="o">--&gt;</span><span class="w"> </span><span class="n">D</span>
+<span class="w">    </span><span class="n">D</span><span class="w"> </span><span class="o">--&gt;</span><span class="w"> </span><span class="n">H</span>
+<span class="w">    </span><span class="n">H</span><span class="w"> </span><span class="o">--&gt;</span><span class="w"> </span><span class="n">K</span>
+<span class="w">    </span><span class="n">G</span><span class="w"> </span><span class="o">--&gt;</span><span class="w"> </span><span class="n">I</span>
+<span class="w">    </span><span class="n">G</span><span class="w"> </span><span class="o">--&gt;</span><span class="w"> </span><span class="n">J</span>
+<span class="w">    </span><span class="n">I</span><span class="w"> </span><span class="o">--&gt;</span><span class="w"> </span><span class="n">G</span>
+<span class="w">    </span><span class="n">J</span><span class="w"> </span><span class="o">--&gt;</span><span class="w"> </span><span class="n">G</span>
+</code></pre></div>
+
+<h2 id="rapid-git-modern-workflow-learning-plan-lamp-stack-with-dev-containers">Rapid Git &amp; Modern Workflow Learning Plan - LAMP Stack with Dev Containers<a class="headerlink" href="#rapid-git-modern-workflow-learning-plan-lamp-stack-with-dev-containers" title="Permanent link">&para;</a></h2>
+<p><strong>Audience:</strong>
+Developers with an existing LAMP site, not yet using Git, working over VS Code SSH remote, and needing to modernize their workflow with local development, version control, and branching.</p>
+<hr />
+<h2 id="module-1-why-version-control-and-why-now">Module 1: Why Version Control? (And Why Now)<a class="headerlink" href="#module-1-why-version-control-and-why-now" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>What you gain:</strong>
+  Safer changes, easy rollbacks, collaboration, and a clear history.</li>
+<li><strong>Agent prompt:</strong>
+  "Explain why I should use Git for my website and what problems it will solve for me."</li>
+</ul>
+<hr />
+<h2 id="module-2-setting-up-git-for-your-existing-site">Module 2: Setting Up Git for Your Existing Site<a class="headerlink" href="#module-2-setting-up-git-for-your-existing-site" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Initialize Git in your project directory (remote or local):</strong></li>
+<li><code>git init</code></li>
+<li><strong>Add your files and make your first commit:</strong></li>
+<li><code>git add .</code></li>
+<li><code>git commit -m "Initial commit of existing site"</code></li>
+<li><strong>Agent prompt:</strong>
+  "Guide me through initializing Git for my existing site and making my first commit."</li>
+</ul>
+<hr />
+<h2 id="module-3-connecting-to-github-and-ssh-key-management">Module 3: Connecting to GitHub (and SSH Key Management)<a class="headerlink" href="#module-3-connecting-to-github-and-ssh-key-management" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Generate an SSH key (if needed):</strong></li>
+<li><code>ssh-keygen -t ed25519 -C "your_email@example.com"</code></li>
+<li><strong>Add your SSH key to GitHub.</strong></li>
+<li><strong>Troubleshoot SSH agent and VS Code SSH remote issues.</strong></li>
+<li><strong>Agent prompt:</strong>
+  "Help me set up SSH keys so I can push to GitHub from my VS Code SSH remote session without conflicts."</li>
+</ul>
+<hr />
+<h2 id="module-4-local-development-with-dev-containers">Module 4: Local Development with Dev Containers<a class="headerlink" href="#module-4-local-development-with-dev-containers" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Why use a dev container?</strong>
+  Consistent, isolated environment for LAMP stack development.</li>
+<li><strong>Agent prompt:</strong>
+  "Help me create a devcontainer for my LAMP stack site, even though I don't know Docker or Podman."</li>
+<li><strong>Tasks:</strong>
+  Use VS Code's "Add Dev Container Configuration" feature.
+  Agent can generate a starter <code>.devcontainer/devcontainer.json</code> and <code>Dockerfile</code> for LAMP.
+  Test running the site locally in the container.</li>
+</ul>
+<hr />
+<h2 id="module-5-workflowfrom-local-to-remote">Module 5: Workflow—From Local to Remote<a class="headerlink" href="#module-5-workflowfrom-local-to-remote" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Recommended flow:</strong></li>
+<li>Develop and test locally in the devcontainer.</li>
+<li>Commit and push changes to GitHub.</li>
+<li>Pull changes to the remote server for deployment.</li>
+<li><strong>Agent prompt:</strong>
+  "Show me a safe workflow for developing locally and deploying to my remote LAMP server using Git."</li>
+</ul>
+<hr />
+<h2 id="module-6-branching-for-multiple-clients">Module 6: Branching for Multiple Clients<a class="headerlink" href="#module-6-branching-for-multiple-clients" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Create and manage branches for different clients:</strong></li>
+<li><code>git checkout -b clientA</code></li>
+<li><code>git checkout -b clientB</code></li>
+<li><strong>Agent prompt:</strong>
+  "How do I keep two versions of my site for different clients using Git branches?"</li>
+</ul>
+<hr />
+<h2 id="module-7-best-practices-troubleshooting">Module 7: Best Practices &amp; Troubleshooting<a class="headerlink" href="#module-7-best-practices-troubleshooting" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>.gitignore for LAMP:</strong>
+  Exclude <code>vendor/</code>, <code>node_modules/</code>, <code>.env</code>, etc.</li>
+<li><strong>Agent prompt:</strong>
+  "What should I put in my .gitignore for a LAMP stack site?"</li>
+<li><strong>Common issues:</strong>
+  SSH key conflicts, merge conflicts, pushing/pulling from remote.</li>
+</ul>
+<hr />
+<h2 id="resources-deep-dives">Resources &amp; Deep Dives<a class="headerlink" href="#resources-deep-dives" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://ohshitgit.com/">Oh Shit, Git!?</a></li>
+<li><a href="https://code.visualstudio.com/docs/remote/ssh">VS Code Remote Development Docs</a></li>
+<li><a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh">GitHub SSH Key Setup</a></li>
+<li><a href="https://containers.dev/">Dev Containers in VS Code</a></li>
+</ul>
+<hr />
+<p><strong>Tip:</strong>
+At every step, use your agent to ask for explanations, troubleshooting, or to generate config files for you!</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "content.code.annotate", "content.tabs.link", "search.suggest", "search.highlight", "toc.integrate"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>
