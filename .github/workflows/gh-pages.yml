@@ -20,14 +20,24 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Cache uv dependencies
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/uv
+            .venv
+          key: ${{ runner.os }}-uv-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-uv-
+
       - name: Install uv
         run: |
-          pip install --upgrade pip
-          pip install uv
+          curl -LsSf https://astral.sh/uv/install.sh | sh
+          echo "$HOME/.cargo/bin" >> $GITHUB_PATH
 
       - name: Install dependencies with uv
         run: |
-          uv pip install --system mkdocs-material
+          uv pip install --system -r requirements.txt
 
       - name: Lint Markdown with markdownlint-cli2
         run: npx markdownlint-cli2 "**/*.md"
