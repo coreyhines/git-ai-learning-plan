@@ -29,6 +29,19 @@ jobs:
         run: |
           uv pip install --system mkdocs-material
 
+      - name: Lint Markdown with markdownlint-cli2
+        run: npx markdownlint-cli2 "**/*.md"
+
+      - name: Check links with lychee-action
+        uses: lycheeverse/lychee-action@v1.10.0
+        with:
+          args: --no-progress --exclude-mail --verbose './**/*.md'
+
+      - name: Scan for secrets with gitleaks
+        uses: gitleaks/gitleaks-action@v2
+        with:
+          args: detect --source . --no-git --redact
+
       - name: Build and deploy
         run: |
           mkdocs gh-deploy --force 
