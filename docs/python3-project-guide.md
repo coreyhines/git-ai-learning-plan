@@ -6,7 +6,7 @@ This guide demonstrates how to set up a modern Python project using best practic
 
 A well-organized Python project typically follows this structure:
 
-```
+```text
 your-project/
 ├── src/
 │   └── your_package/
@@ -23,6 +23,7 @@ your-project/
 ## Setup Steps
 
 1. Create Virtual Environment
+
    ```bash
    python3 -m venv .venv
    source .venv/bin/activate  # On Unix/macOS
@@ -31,11 +32,13 @@ your-project/
    ```
 
 2. Install Modern Build Tools
+
    ```bash
    curl -LsSf https://astral.sh/uv/install.sh | sh
    ```
 
 3. Configure Project Metadata (pyproject.toml)
+
    ```toml
    [project]
    name = "your-package"
@@ -55,6 +58,7 @@ your-project/
    ```
 
 4. Set Up Pre-commit Hooks
+
    ```yaml
    # .pre-commit-config.yaml
    repos:
@@ -77,6 +81,7 @@ your-project/
    ```
 
 5. Install Development Dependencies
+
    ```bash
    uv pip install pre-commit black ruff pytest
    pre-commit install
@@ -144,11 +149,13 @@ pytest tests/
 ## Building and Publishing
 
 1. Build your package:
+
    ```bash
    python -m build
    ```
 
 2. Publish to PyPI (if desired):
+
    ```bash
    python -m twine upload dist/*
    ```
@@ -165,4 +172,4 @@ pytest tests/
 
 3. **Pre-commit Hook Issues**
    - Run `pre-commit clean` to reset the hooks
-   - Update hooks with `pre-commit autoupdate` 
+   - Update hooks with `pre-commit autoupdate`

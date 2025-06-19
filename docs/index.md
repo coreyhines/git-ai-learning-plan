@@ -7,12 +7,14 @@ A comprehensive resource for mastering modern development workflows with agentic
 ## Explore the Guides
 
 ### Main Guides
+
 - [Main AI & Git Learning Plan](ai-git-learning-plan.md)
 - [Quick Git Branch & PR Guide](git-branch-pr-guide.md)
 - [Portable Shell & Dotfiles Guide](portable-shell-dotfiles.md)
 - [Agentic AI Access Guide](agentic-ai-access.md)
 
 ### Examples
+
 - [Python Project Setup](python3-project-guide.md)
 - LAMP Stack Examples:
   - [With Dev Containers](lamp-modernization-devcontainer.md)
