@@ -16,7 +16,7 @@ if ! command -v pre-commit &> /dev/null; then
     # Add uv to PATH for this session
     export PATH="$HOME/.cargo/bin:$PATH"
   fi
-  uv pip install pre-commit
+  uv pip install --system pre-commit
 fi
 
 printf "\n${GREEN}Running pre-commit hooks on all files...${NC}\n"
