@@ -30,7 +30,3 @@ A concise, step-by-step guide for the most common Git workflow: creating a branc
 
 You can also use the GitHub CLI (`gh`) to open a PR from the terminal:
 - `gh pr create --fill`
-
----
-
-Let me know if you want these steps tailored for a specific tool (e.g., Cursor IDE, GitHub Desktop, etc.) or want example prompts for using an AI agent to assist! 
