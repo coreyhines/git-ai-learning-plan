@@ -1,6 +1,10 @@
 # Agentic AI Learning Plan
 
+[![Deploy MkDocs site to GitHub Pages](https://github.com/coreyhines/git-ai-learning-plan/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/coreyhines/git-ai-learning-plan/actions/workflows/gh-pages.yml)
+
 A comprehensive, open-source curriculum and resource set for mastering modern development workflows with agentic AI, Git, and best practices.
+
+> **Note:** Changes are automatically deployed to GitHub Pages when pushed to the `main` branch.
 
 ---
 
