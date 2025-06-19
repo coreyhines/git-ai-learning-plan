@@ -24,7 +24,6 @@ This supplement provides up-to-date advice for individuals on how to access agen
 - **Tips to Maximize Free Use:**
   - Use the free tier for practice and personal projects.
   - Take advantage of the 14-day Pro trial.
-  - (Not recommended for professionals) Some community tools exist to reset trials or bypass limits, but these may violate terms and risk account bans.
 
 - **Productivity Advice:**
   - Use Cursor's agent mode for multi-file changes, codebase-wide refactoring, and automated bug fixing.
