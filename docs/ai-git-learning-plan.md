@@ -6,72 +6,87 @@ A rapid, hands-on curriculum for mastering Git, AI-assisted development, and mod
 
 ---
 
-## Module 1: Crafting a Frictionless Terminal Environment with Zsh & Oh-My-Zsh
+## Module 1: Your Developer Superpower - A Modern Terminal
 
-- **Why Your Terminal Matters**
-  - A smooth, powerful terminal setup saves time, reduces frustration, and makes development more enjoyable.
-  - Modern shells like Zsh, enhanced with Oh-My-Zsh and plugins, provide features like autosuggestions, syntax highlighting, and especially a powerful, informative prompt.
-  - Example prompt: "Why do developers prefer Zsh and Oh-My-Zsh over Bash?"
+> 💡 **Why This Matters**: Your terminal is your direct interface to development superpowers. A well-configured terminal makes you faster, more confident, and less error-prone. Let's make it awesome!
 
-- **Making Your Zsh Environment Portable**
-  - Want your 10x shell setup everywhere (local, remote, new machines)? See the [Portable Shell & Dotfiles Guide](portable-shell-dotfiles.md) for best practices, example configs, and a bootstrap script.
+### Quick Start (5 minutes)
 
-- **Setting Up Zsh and Oh-My-Zsh**
-  - **Step 1: Check Your Shell**
-    - Zsh is the default shell on macOS since Catalina (10.15). To check your current shell, run:
+```bash
+# 1. Check if you're already using Zsh
+echo $SHELL
 
-      ```sh
-      echo $SHELL
-      ```
+# 2. Install Zsh if needed (macOS/Linux)
+brew install zsh  # macOS
+sudo apt install zsh  # Ubuntu/Debian
 
-    - If your shell is not Zsh, you can install it and set it as default.
-  - **Step 2: Install Zsh (if needed)**
-    - On most systems, you can install Zsh with your package manager (e.g., `brew install zsh` on macOS, `sudo apt install zsh` on Ubuntu).
-    - To make Zsh your default shell, run:
+# 3. Make Zsh your default shell
+chsh -s $(which zsh)
 
-      ```sh
-      chsh -s $(which zsh)
-      ```
+# 4. Install Oh-My-Zsh (the magic sauce)
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
 
-  - **Step 3: Open the Terminal in Cursor IDE**
-    - Use the menu (View > Terminal) or the shortcut (usually Ctrl+`or Cmd+` on Mac) to open a terminal inside Cursor IDE.
-  - **Step 4: Install Oh-My-Zsh**
-    - In your Cursor IDE terminal, run:
+### 🚀 Level Up Your Terminal
 
-      ```sh
-      sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-      ```
+1. **Must-Have Plugins** 
+   > These plugins give you superpowers like command suggestions, syntax highlighting, and Git integration
 
-    - Oh-My-Zsh makes it easy to manage plugins, themes, and your Zsh configuration.
-  - Example prompt: "Guide me through installing Zsh and Oh-My-Zsh on my system."
-  - Example prompt: "How do I make Zsh my default shell?"
+   ```bash
+   # Add to ~/.zshrc:
+   plugins=(
+     git
+     zsh-autosuggestions
+     zsh-syntax-highlighting
+   )
+   ```
 
-- **Must-Have Plugins for Productivity**
-  - Task: Add plugins like zsh-autosuggestions and zsh-syntax-highlighting for a buttery smooth experience.
-  - Example prompt: "Install and configure zsh-autosuggestions and zsh-syntax-highlighting."
-  - Why: These plugins boost speed, reduce errors, and make your terminal a joy to use.
+2. **Smart Prompt**
+   > Your prompt should tell you exactly what you need to know: Git status, Python env, and more
 
-- **A Prompt That Works for You: Git Integration and Context**
-  - Task: Customize your Zsh prompt to show useful information, especially Git branch/status, Python environment, and more.
-  - Example prompt: "Help me set up my Zsh prompt to show the current Git branch and status."
-  - Why: A good prompt gives you instant feedback about your repo state (e.g., branch, dirty/clean, staged changes), reducing mistakes and context switching. It can also show Python virtualenv, time, and more—making you more productive and less likely to make Git errors.
-  - Example prompt: "Explain what each part of my Zsh prompt means and how to customize it for my workflow."
+   ```bash
+   # Popular themes that work great:
+   ZSH_THEME="agnoster"    # Classic, informative
+   ZSH_THEME="powerlevel10k"  # Modern, fast, customizable
+   ```
 
-- **Letting the Agent Help**
-  - Task: Use the agent to explain, install, and troubleshoot your shell environment, plugins, and prompt customization.
-  - Example prompt: "Explain what each Oh-My-Zsh plugin does and recommend the best ones for developers."
-  - Example prompt: "If my Zsh config is slow or buggy, help me debug and optimize it."
-  - Example prompt: "Suggest a Zsh prompt theme or config that works well for Git workflows."
+### 🎯 Pro Tips
 
-- **Going Deeper: Resources & Videos**
-  - [Oh My Zsh Official Site](https://ohmyz.sh/)
-  - [Awesome Zsh Plugins](https://github.com/unixorn/awesome-zsh-plugins)
-  - [Zsh Autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
-  - [Zsh Syntax Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
-  - [Video: How to Set Up a Beautiful Zsh Terminal (YouTube)](https://www.youtube.com/watch?v=msyAY6L7XJQ)
-  - [Video: Oh My Zsh! Productivity Tips (YouTube)](https://www.youtube.com/watch?v=Z9OYc1u6Rwc)
-  - [Oh My Zsh Git Plugin](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git)
-  - [Customizing Your Zsh Prompt (Oh My Zsh Docs)](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)
+> 🔥 **Hot Tip**: Want your perfect terminal setup everywhere you go? Check out our [Portable Shell & Dotfiles Guide](portable-shell-dotfiles.md) for a one-command setup on any machine!
+
+#### Common Questions
+
+<details>
+<summary>❓ "Why Zsh over Bash?"</summary>
+
+- Better tab completion
+- Smarter history search
+- More powerful plugins
+- Modern features while staying POSIX-compatible
+</details>
+
+<details>
+<summary>❓ "Help! My prompt is showing weird characters!"</summary>
+
+1. Install a [Nerd Font](https://www.nerdfonts.com/)
+2. Set it in your terminal preferences
+3. Reload your terminal
+</details>
+
+### 🎓 Learning Prompts
+
+Try these with your AI assistant:
+
+- "Help me customize my Zsh prompt to show Git status and Python virtualenv"
+- "What are the most useful Zsh plugins for Python development?"
+- "My terminal is slow after adding plugins - help me optimize it"
+
+### 🔍 Deep Dive Resources
+
+- 📺 [Video: Beautiful Terminal Setup in 10 Minutes](https://www.youtube.com/watch?v=msyAY6L7XJQ)
+- 📚 [Oh My Zsh Official Site](https://ohmyz.sh/)
+- 🛠️ [Awesome Zsh Plugins](https://github.com/unixorn/awesome-zsh-plugins)
+- ⚡ [Powerlevel10k - The Ultimate Zsh Theme](https://github.com/romkatv/powerlevel10k)
 
 ---
 
