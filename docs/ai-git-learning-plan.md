@@ -63,6 +63,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 - Smarter history search
 - More powerful plugins
 - Modern features while staying POSIX-compatible
+
 </details>
 
 <details>
@@ -71,6 +72,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 1. Install a [Nerd Font](https://www.nerdfonts.com/)
 2. Set it in your terminal preferences
 3. Reload your terminal
+
 </details>
 
 ### 🎓 Learning Prompts
